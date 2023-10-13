@@ -2,18 +2,6 @@ body
 {
   background-image: url(./background\ image.avif);
 }
-@media (width <= 1200px) or (orientation: landscape) or (orientation: portrait) {
-  body{
-background-image: url(./background\ image.avif);
-  }
-}
-  
-
-
-
-
-
-
 
 ul
 {
