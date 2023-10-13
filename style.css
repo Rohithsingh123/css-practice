@@ -10,7 +10,6 @@ ul
   padding: 0;
   background-color: #241e1e;
   overflow: hidden;
-  position: fixed;
 }
 
 li
@@ -29,7 +28,7 @@ li a
 
 li a:hover
 {
-  background-color: black;
+  background-color: rgb(154, 114, 114);
 }
 
 .active
@@ -55,4 +54,15 @@ li a:hover
 #foot
 {
   padding-bottom: 20px;
+}
+
+form button:hover
+{
+  background-color: rgb(104, 81, 125);
+}
+
+form input:hover
+{
+  background-color: bisque;
+  transition: all 2s;
 }
